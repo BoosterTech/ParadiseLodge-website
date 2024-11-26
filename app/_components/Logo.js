@@ -5,9 +5,10 @@ function Logo() {
   return (
     <Link href="/" className="flex items-center gap-4 z-10">
       <Image
-        src="/logo-light.png"
-        height="160"
-        width="160"
+        src="/logo-dark.png"
+        height="130"
+        width="130"
+        
         alt="The Wild Oasis logo"
         priority={true}
       />
