@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import darklogo from "@/public/logo-dark.png";
 
 function Logo() {
   return (
-    <Link href="/" className="flex items-center gap-4 z-10">
+    <Link  href="/" className="flex items-center gap-4 z-10">
       <Image
-        src="/logo-dark.png"
-        height="130"
-        width="130"
-        
+        src={darklogo}
+        height="70"
+      
         alt="The Wild Oasis logo"
         priority={true}
       />
