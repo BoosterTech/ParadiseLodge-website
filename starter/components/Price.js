@@ -1,4 +1,4 @@
-import { getCabinPrice } from '@/public/_lib/data-service';
+import { getCabinPrice } from '@/app/_lib/data-service';
 
 async function Price({ cabinId }) {
   const { regularPrice, discount } = await getCabinPrice(cabinId);
