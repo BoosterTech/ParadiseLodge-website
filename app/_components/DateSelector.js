@@ -40,8 +40,6 @@ function DateSelector({ settings, cabin, bookedDates }) {
   // SETTINGS
   const { minBookingLength, maxBookingLength } = settings;
 
-  console.log("booked dates:", bookedDates);
-
   return (
     <div className="flex flex-col justify-between">
       <DayPicker
@@ -56,12 +54,9 @@ function DateSelector({ settings, cabin, bookedDates }) {
         endMonth={new Date(new Date().getFullYear(), 12)}
         captionLayout="dropdown"
         numberOfMonths={2}
-        disabled={
-          (curDate) =>
-            isPast(curDate) ||
-            // (bookedDates &&
-            bookedDates?.some((date) => isSameDay(date, curDate))
-          // )
+        disabled={(curDate) =>
+          isPast(curDate) ||
+          bookedDates?.some((date) => isSameDay(date, curDate))
         }
       />
 
@@ -93,7 +88,7 @@ function DateSelector({ settings, cabin, bookedDates }) {
           ) : null}
         </div>
 
-        {range.from || range.to  ? (
+        {range.from || range.to ? (
           <button
             className="border border-primary-800 py-2 px-4 text-sm font-semibold"
             onClick={resetRange}
