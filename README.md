@@ -4,10 +4,10 @@
 **The Paradise Lodge** is a luxury cabin booking platform designed to provide a seamless and intuitive experience for users to explore, book, and manage high-end stays. Built with modern web technologies, the platform ensures effortless navigation, real-time availability checks, and a secure reservation process.  
 
 ## 🚀 Features  
-- 🏕️ **Browse Luxury Cabins** – Explore a collection of premium lodges with stunning visuals and detailed descriptions.  
+- 🏕️ **Browse Luxury Cabins** – Explore a collection of premium lodges with stunning visuals and descriptions.  
 - 📅 **Real-Time Availability** – Check availability instantly and book your dream stay.  
 - 🔄 **Manage Reservations** – Modify or cancel bookings with ease.  
-- 🎨 **Modern & Responsive UI** – A beautifully designed, user-friendly interface built with **React** and **Styled-Components**.  
+- 🎨 **Modern UI** – A beautifully designed, user-friendly interface built with **React** and **Styled-Components**.  
 - 🔗 **Seamless Navigation** – Powered by **React Router** for smooth page transitions.  
 - ⚡ **State Management** – Utilizes **Redux Toolkit** for efficient application state handling.  
 
@@ -42,7 +42,7 @@
    ```  
 
 ## 🌍 Live Demo  
-[Check out the live website here!](https://boostertech.github.io/Front-End-Dev-Portfolio/)  
+[Check out the live website here!](https://paradise-lodge-web.vercel.app/)  
 
 ## 🎯 Future Enhancements  
 - 🏕️ Integration with a backend API for dynamic cabin listings and real-time booking updates.  
