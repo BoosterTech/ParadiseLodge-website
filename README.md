@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏡 The Paradise Lodge - Luxury Cabin Booking Website  
 
-## Getting Started
+## 🌟 Overview  
+**The Paradise Lodge** is a luxury cabin booking platform designed to provide a seamless and intuitive experience for users to explore, book, and manage high-end stays. Built with modern web technologies, the platform ensures effortless navigation, real-time availability checks, and a secure reservation process.  
 
-First, run the development server:
+## 🚀 Features  
+- 🏕️ **Browse Luxury Cabins** – Explore a collection of premium lodges with stunning visuals and detailed descriptions.  
+- 📅 **Real-Time Availability** – Check availability instantly and book your dream stay.  
+- 🔄 **Manage Reservations** – Modify or cancel bookings with ease.  
+- 🎨 **Modern & Responsive UI** – A beautifully designed, user-friendly interface built with **React** and **Styled-Components**.  
+- 🔗 **Seamless Navigation** – Powered by **React Router** for smooth page transitions.  
+- ⚡ **State Management** – Utilizes **Redux Toolkit** for efficient application state handling.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack  
+- **Frontend:** React, React Router, Styled-Components, React-Icons  
+- **State Management:** Redux Toolkit, React-Redux  
+- **Testing:** Jest, React Testing Library  
+- **Deployment:** GitHub Pages (gh-pages)  
+- **Other Libraries:** React Scroll for smooth scrolling  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Installation & Setup  
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/BoosterTech/Front-End-Dev-Portfolio.git
+   cd Front-End-Dev-Portfolio
+   ```  
+2. **Install dependencies:**  
+   ```sh
+   npm install
+   ```  
+3. **Run the development server:**  
+   ```sh
+   npm start
+   ```  
+4. **Build for production:**  
+   ```sh
+   npm run build
+   ```  
+5. **Deploy to GitHub Pages:**  
+   ```sh
+   npm run deploy
+   ```  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🌍 Live Demo  
+[Check out the live website here!](https://boostertech.github.io/Front-End-Dev-Portfolio/)  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🎯 Future Enhancements  
+- 🏕️ Integration with a backend API for dynamic cabin listings and real-time booking updates.  
+- ⭐ User authentication and profile management for personalized experiences.  
+- 💳 Secure payment gateway integration for seamless transactions.  
 
-## Learn More
+## 🤝 Contributing  
+Contributions are welcome! Feel free to submit issues or create pull requests to improve the project.  
 
-To learn more about Next.js, take a look at the following resources:
+## 📜 License  
+This project is licensed under the **MIT License**.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---  
+✨ **The Paradise Lodge** – Where Nature Meets Luxury! ✨  
