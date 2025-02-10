@@ -148,7 +148,6 @@ export async function getCountries() {
   }
 }
 
-/////////////
 // CREATE
 
 export async function createGuest(newGuest) {
@@ -177,8 +176,6 @@ export async function createBooking(newBooking) {
 
   return data;
 }
-
-/////////////
 // UPDATE
 
 // The updatedFields is an object which should ONLY contain the updated data
@@ -212,7 +209,6 @@ export async function updateBooking(id, updatedFields) {
   return data;
 }
 
-/////////////
 // DELETE
 
 export async function deleteBooking(id) {

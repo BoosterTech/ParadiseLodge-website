@@ -10,9 +10,6 @@ export default async function Page() {
   const session = await auth();
   const bookings = await getBookings(session.user.guestId);
 
-  console.log("session-reservation:", session.user.guestId);
-  console.log("bookings-reservation:", bookings);
-
   return (
     <div>
       <h2 className="font-semibold text-2xl text-accent-400 mb-7">
